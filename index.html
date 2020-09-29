@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Slider</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+
+
+    <style>
+        *{transition: all ease 500ms;
+            font-family: monospace;
+        }
+        .main_section .Inner_div {
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            
+        }
+        .main_section{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-image: url(../slider/image/img1.jpg);
+            background-size: 100% 100%;
+        }
+        .main_section .Inner_div a .col {
+            padding: 50px 20px;
+            height: 150px;
+            border: 1px solid #fff;
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+        }
+        .main_section .Inner_div a {
+            text-decoration:none;
+            color:#fff;
+            display: block;
+        }
+        .main_section .Inner_div img {position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            transition: all ease 500ms;
+            opacity: 0;
+        }
+        .main_section .Inner_div a:hover img{opacity: 1;
+        } 
+        .main_section .Inner_div .imgcol1 a:hover .col{
+            background-color: #f4ba49;
+        }
+        .main_section .Inner_div .imgcol2 a:hover .col{
+            background-color: #006cad;
+        }
+        .main_section .Inner_div .imgcol3 a:hover .col{
+            background-color: #eddd30;
+        }
+        .main_section .Inner_div .imgcol4 a:hover .col{
+            background-color: #b47e5a;
+        }
+        .main_section .Inner_div .imgcol5 a:hover .col{
+            background-color: #f44949;
+        }
+        .main_section .Inner_div .imgcol6 a:hover .col{
+            background-color: #ffc000;
+        }
+        .main_section .Inner_div .imgcol7 a:hover .col{
+            background-color: #c1bfd8;
+        }
+        .main_section .Inner_div .imgcol8 a:hover .col{
+            background-color: #ff3d00;
+        }
+        .main_section .Inner_div .imgcol9 a:hover .col{
+            background-color: #541d66;
+        }
+        .main_section .Inner_div .imgcol10 a:hover .col{
+            background-color: #6df1e4;
+        }
+        .main_section .Inner_div .imgcol11 a:hover .col{
+            background-color: #4f1b24;
+        }
+        .main_section .Inner_div .imgcol12 a:hover .col{
+            background-color: #c1bfd8;
+        }
+        .main_section .Inner_div .col h1 span{left: -200px;
+            font-size: 14px;
+        position: absolute;}
+        .main_section .Inner_div a:hover span{left: 20px;}
+    </style>
+</head>
+
+<body>
+    <section class="main_section">
+        <div class="Inner_div">
+            <div class="imgcol1">
+                <a href="">
+                    <div class="col">
+
+                        
+                        <h1 class="">
+                            Pritesh Ambavane <br>
+                            <span>Entertainment</span>
+                        </h1>
+                        
+                    </div>
+                    <div class="bg_img1">
+                        <img src="image/img1.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+
+            <div class="imgcol2">
+                <a href="">
+                    <div class="col">
+                        <h1 class="">
+                            Nikhil Mali<br>
+                            <span>Travel</span>
+                        </h1>
+                    </div>
+                    <div class="bg_img2">
+                        <img src="image/img2.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+
+            <div class="imgcol3">
+                <a href="">
+                    <div class="col">
+                        <h1 class="">
+                            Arif<br>
+                            <span>Travel</span>
+                        </h1>
+                        
+                    </div>
+                    <div class="bg_img3">
+                        <img src="image/img3.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+
+            <div class="imgcol4">
+                <a href="">
+                    <div class="col">
+                        <h1 class="">
+                            C.D James<br>
+                            <span>Entertainment</span>
+                        </h1>
+                    </div>
+                    <div class="bg_img4">
+                        <img src="image/img12.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+
+            <div class="imgcol5">
+                <a href="">
+                    <div class="col">
+                        <h1 class="">
+                            Rakesh Rawat<br>
+                            <span>Event</span>
+                        </h1>
+                    </div>
+                    <div class="bg_img5">
+                        <img src="image/img5.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+            <div class="imgcol6">
+                <a href="">
+                    <div class="col">
+                        <h1 class="">
+                            Sanket<br>
+                            <span>Utility</span>
+                        </h1>
+                    </div>
+                    <div class="bg_img6">
+                        <img src="image/img6.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+            <div class="imgcol7">
+                <a href="">
+                    <div class="col">
+                        <h1 class="">
+                            Priti Bhushan<br>
+                            <span>Entertainment</span>
+                        </h1>
+                    </div>
+                    <div class="bg_img7">
+                        <img src="image/img7.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+            <div class="imgcol8">
+                <a href="">
+                    <div class="col">
+                        <h1 class="">
+                            Monalisa Singh<br>
+                            <span>Event</span>
+                        </h1>
+                    </div>
+                    <div class="bg_img8">
+                        <img src="image/img8.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+            <div class="imgcol9">
+                <a href="">
+                    <div class="col">
+                        <h1 class="">
+                            Amit Abhishek<br>
+                            <span>Entertainment</span>
+                        </h1>
+                    </div>
+                    <div class="bg_img9">
+                        <img src="image/img9.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+            <div class="imgcol10">
+                <a href="">
+                    <div class="col">
+                        <h1 class="">
+                            Yogesh Bansode<br>
+                            <span>travel</span>
+                        </h1>
+                    </div>
+                    <div class="bg_img10">
+                        <img src="image/img10.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+            <div class="imgcol11">
+                <a href="">
+                    <div class="col">
+                        <h1 class="">
+                            Victor Mascarenhas<br>
+                            <span>Utility</span>
+                        </h1>
+                    </div>
+                    <div class="bg_img11">
+                        <img src="image/img11.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+            <div class="imgcol12">
+                <a href="">
+                    <div class="col">
+                        <h1 class="">
+                            Oeindrila Biswas<br>
+                        <span>Utility</span>
+                        </h1>
+                    </div>
+                    <div class="bg_img12">
+                        <img src="image/img4.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
